@@ -1,32 +1,26 @@
+# Lab Notes
 
-# Windows Server 2019 Lab Notes
+This file provides an overview of the practical work completed during the Windows Server 2019 home lab project.
 
-## 1. Lab Setup
-Documentation of the virtual machine and Windows Server installation.
+## Documentation
 
-## 2. Network Configuration
-Static IP configuration, network settings and connectivity testing.
+The following documents cover the different stages of the lab:
 
-## 3. Active Directory
-AD DS installation, domain controller configuration, users, groups and Organizational Units.
+1. [Network Configuration](documentation/01-network-configuration.md)
+2. [Active Directory](documentation/02-active-directory.md)
+3. [DNS Configuration](documentation/03-dns-configuration.md)
+4. [DHCP Configuration](documentation/04-dhcp-configuration.md)
+5. [Group Policy](documentation/05-group-policy.md)
+6. [File Server](documentation/06-file-server.md)
+7. [Remote Desktop](documentation/07-remote-desktop.md)
+8. [Troubleshooting](documentation/08-troubleshooting.md)
 
-## 4. DNS Configuration
-DNS installation, forward and reverse lookup zones and DNS testing.
+## Screenshots
 
-## 5. DHCP Configuration
-DHCP installation, scopes, address allocation and testing.
+Screenshots documenting the server configuration, management consoles and client machine setup are available in the `screenshots` folder.
 
-## 6. Group Policy
-GPO creation, configuration, application and verification.
+## Project Status
 
-## 7. File Server
-Shared folders, NTFS permissions, share permissions and access testing.
+The Active Directory, DNS, DHCP, Group Policy and File Server configurations have been completed and documented.
 
-## 8. Remote Desktop
-Remote Desktop configuration and connection testing.
-
-## 9. Troubleshooting
-Issues encountered, solutions and lessons learned.
-
-## 10. Conclusion
-Summary of the lab and skills developed.
+Remote Desktop configuration and testing are still pending.
