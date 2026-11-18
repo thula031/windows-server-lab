@@ -1,49 +1,61 @@
 # Windows Server 2019 Home Lab
 
+A Windows Server 2019 home lab built using Oracle VirtualBox to practise Windows Server administration and IT support tasks.
+
 ## Overview
 
-This project documents the setup and configuration of a Windows Server 2019 home lab using Oracle VirtualBox. The lab simulates a small company IT environment, focusing on system administration and IT support tasks.
+This project simulates a small business network environment using a Windows Server 2019 domain controller and a Windows client machine.
+
+The lab covers server configuration, user and group management, network services, access control and shared folder administration.
 
 ## Lab Environment
 
-- **Operating System:** Windows Server 2019
-- **Virtualisation:** Oracle VirtualBox
-- **Environment:** Virtual Machine
-- **Project Type:** Active Directory and Network Administration
+| Component | Configuration |
+|---|---|
+| Server | Windows Server 2019 |
+| Domain Controller | DC001 |
+| Client Machine | PC001 |
+| Domain | lab.local |
+| Virtualisation | Oracle VirtualBox |
 
 ## Technologies and Services
 
 - Active Directory Domain Services (AD DS)
-- Domain Controller Configuration
 - Domain User and Group Management
 - Domain Name System (DNS)
 - Dynamic Host Configuration Protocol (DHCP)
 - Group Policy Objects (GPO)
 - File Server and Shared Folder Permissions
-- Remote Desktop Protocol (RDP)
-
-## Project Objectives
-
-- Install and configure Windows Server 2019.
-- Set up and manage an Active Directory domain.
-- Create and manage domain users and security groups.
-- Configure DNS and DHCP services.
-- Implement Group Policy for centralized administration.
-- Configure shared folders and access permissions.
-- Enable remote administration using Remote Desktop.
+- Network Configuration
+- Remote Desktop Protocol (RDP) – pending completion
 
 ## Repository Structure
 
 ```text
 windows-server-lab/
-├── README.md
-└── LAB-NOTES.md
+│
+├── documentation/
+│   ├── 01-network-configuration.md
+│   ├── 02-active-directory.md
+│   ├── 03-dns-configuration.md
+│   ├── 04-dhcp-configuration.md
+│   ├── 05-group-policy.md
+│   ├── 06-file-server.md
+│   ├── 07-remote-desktop.md
+│   └── 08-troubleshooting.md
+│
+├── screenshots/
+│
+├── LAB-NOTES.md
+└── README.md
 ```
 
 ## Documentation
 
-Detailed configuration steps, practical exercises, troubleshooting notes and lessons learned are documented in `LAB-NOTES.md`.
+Detailed configuration steps, troubleshooting records and practical notes are available in the [documentation folder](documentation/).
 
-## Purpose
+The [LAB-NOTES.md](LAB-NOTES.md) file provides an overview of the work completed.
 
-This project demonstrates practical experience with Windows Server administration, Active Directory management, network services and common IT support responsibilities.
+## Project Objective
+
+The purpose of this project is to develop practical experience with Windows Server administration, Active Directory, network services and common IT support responsibilities through a simulated business environment.
